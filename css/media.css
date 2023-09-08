@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 375px) {
 	.nav_box {
 		padding: 2rem 2rem;
 		gap: 15rem;
@@ -42,6 +42,9 @@
 	.service_paragraph {
 		text-align: center;
 	}
+	.service_paragraph br {
+		display: none;
+	}
 	.img_box {
 		flex-direction: column;
 	}
@@ -83,7 +86,7 @@
 		margin-bottom: 2rem;
 	}
 	.get_start {
-		margin-left: 12rem;
+		margin-left: 10rem;
 	}
 	.about_image {
 		width: 100%;
@@ -91,11 +94,17 @@
 	.about_us_paragraph {
 		text-align: center;
 	}
+	.about_us_paragraph br {
+		display: none;
+	}
 	.about_us_subheading {
 		text-align: center;
 	}
 	.about_us_subparagraph {
 		text-align: center;
+	}
+	.about_us_subparagraph br {
+		display: none;
 	}
 	.our_team_box {
 		padding: 2rem 2rem;
@@ -137,14 +146,14 @@
 		font-size: 1.5rem;
 	}
 	.post_comment {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		text-align: center;
 	}
 	.post_comment br {
 		display: none;
 	}
 	.post_write_up {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		text-align: center;
 	}
 	.post_write_up br {
@@ -170,6 +179,12 @@
 	.footer_grid {
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
+	}
+	.footer_list {
+		text-align: center;
+	}
+	.footer-section span {
+		text-align: center;
 	}
 	/* Mobile nav */
 	.btn-mobile-nav {
