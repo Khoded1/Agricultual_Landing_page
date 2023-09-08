@@ -22,7 +22,7 @@ body {
 HEADER SECTION
 **************************** */
 .header {
-	background: url(../image/hero_page_background.svg);
+	background: url(../image/hero_page_background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 762px;
@@ -424,7 +424,7 @@ POST SECTION
 CTA SECTION
 **************************** */
 .cta_section {
-	background: url(../image/cta_background.svg);
+	background: url(../image/cta_background.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 7rem 5rem;
