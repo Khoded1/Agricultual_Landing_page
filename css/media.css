@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
 	.nav_box {
 		padding: 2rem 2rem;
 		gap: 15rem;
@@ -7,7 +7,7 @@
 		margin-top: 5rem;
 	}
 	.hero_headline {
-		font-size: 35px;
+		font-size: 45px;
 	}
 	.hero_headline br {
 		display: none;
@@ -16,7 +16,7 @@
 		display: none;
 	}
 	.hero_paragraph {
-		font-size: 1.4rem;
+		font-size: 1.6rem;
 		margin-bottom: 5rem;
 	}
 	.service_section {
@@ -30,6 +30,9 @@
 		align-items: center;
 		display: flex;
 		flex-direction: column;
+	}
+	.service_title {
+		font-size: 2.5rem;
 	}
 	.service_headline {
 		text-align: center;
@@ -53,6 +56,12 @@
 	}
 	.selling_section {
 		padding: 2rem 2rem;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+	.sales_subtitle {
+		font-size: 2rem;
 	}
 	.selling_headline {
 		font-size: 3.5rem;
@@ -71,22 +80,26 @@
 		grid-template-columns: 1fr;
 		justify-content: center;
 	}
+	.about_us_box {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 	.about_us {
+		margin-bottom: 1rem;
 		text-align: center;
 		font-size: 2rem;
 	}
 	.about_us_headline {
 		text-align: center;
 		font-size: 2rem;
+		margin-bottom: 2rem;
 	}
 	.about_us_headline br {
 		display: none;
 	}
 	.about_us_box {
 		margin-bottom: 2rem;
-	}
-	.get_start {
-		margin-left: 10rem;
 	}
 	.about_image {
 		width: 100%;
@@ -98,10 +111,12 @@
 		display: none;
 	}
 	.about_us_subheading {
+		font-size: 2.2rem;
 		text-align: center;
 	}
 	.about_us_subparagraph {
 		text-align: center;
+		font-size: 1.8rem;
 	}
 	.about_us_subparagraph br {
 		display: none;
@@ -113,7 +128,7 @@
 		display: none;
 	}
 	.team_headline {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
 	.team_pictures_box {
 		grid-template-columns: 1fr 1fr;
@@ -127,8 +142,12 @@
 	.quote {
 		width: 25%;
 	}
-	.feedback_text br {
+	.feedback_text {
+		font-size: 2.7rem;
 		text-align: center;
+	}
+	.feedback_text br {
+		display: none;
 	}
 	.post_section {
 		padding: 2rem 2rem;
@@ -144,6 +163,9 @@
 	}
 	.ideas_on_post {
 		font-size: 1.5rem;
+	}
+	.post_date {
+		text-align: center;
 	}
 	.post_comment {
 		font-size: 1.2rem;
